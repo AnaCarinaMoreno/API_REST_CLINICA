@@ -1,0 +1,22 @@
+{
+  "name": "api_rest_clinica",
+  "version": "1.0.0",
+  "description": "Desarrollo de una API REST para gestión de historias clinicas",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Ana Carina Moreno Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
